@@ -59,6 +59,7 @@ const MORSE_CODE = {
 Object.freeze(MORSE_CODE);
 
 function morse(text) {
+
   let words = (text).split("   ")
   let char = words.map((w) => w.split(" "));
   let morseDecode = [];
